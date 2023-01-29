@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,300&family=VT323&display=swap" rel="stylesheet">
+    <title>Modale</title>
+    <link rel="stylesheet" href="stytle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wrapper">
+        <button class="show-btn" id="show-btn">
+           Modal Btn
+        </button>
+        <div class="modal hidden" id="modal">
+            <div class="modal-header">
+                <h3>I love My country</h3>
+                <button class="close" id="close">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h2 class="modal-title">Modal Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure perspiciatis dolor reprehenderit debitis inventore doloremque sint fugit ea. Blanditiis, inventore maiores.
+                     Rerum, hic. Ad illo neque, quae quisquam debitis vitae.</p>
+            </div>
+        </div>
+    </div>
+    <div class="overlay hidden" id="overlay"></div>
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>

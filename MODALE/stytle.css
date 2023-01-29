@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    background-image: url(./kimina.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.show-btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: navajowhite;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top: 400px;
+    left: 680px;
+}
+.modal {
+    width: 450px;
+    position: absolute;
+    display: flex;
+    top: 300px;
+    left: 520px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px 10px 50px;
+    display: block;
+}
+.hidden {
+    display: none;
+}
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+i{
+    width: 20px;    
+}
+.modal-body h2 {
+    margin-bottom: 10px;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(3px);
+    display: none;
+}
